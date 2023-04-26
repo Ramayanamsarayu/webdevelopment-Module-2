@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"> 
+    <title>module2-solution</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<style>
+    /*basic style*/
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: white;
+    }
+
+    h1 {
+        margin: 100px;
+        text-align: center;
+        font-family: Helvetica;
+        font-weight: bold;
+        font-size: 175%;
+    }
+
+    section {
+        position: relative;
+        padding: 15px;
+        width: 100%;
+    }
+
+    p {
+        position: relative;
+        clear: right;
+    }
+
+    div {
+        position: relative;
+        background-color: gray;
+        border: 1px solid black;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+    }
+
+    .sub1 {
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: rgb(243, 169, 169);
+
+    }
+
+    .sub2 {
+        float: right;
+        color: white;
+        width: 100px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: rgb(213, 124, 76);
+
+    }
+
+    .sub3 {
+        color: black;
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: 0px;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: rgb(77, 184, 219);
+
+    }
+
+    .content {
+        padding: 5px;
+        border: none;
+        background-color: gray;
+        font-family: Helvetica;
+        color: black;
+        margin: 0px;
+        height: 200px;
+        overflow: auto;
+    }
+
+    .row {
+        width: 90%;
+    }
+
+    /*desktop version*/
+    @media (min-width: 992px) {
+        .column-lg-4 {
+            float: left;
+            width: 33.33%;
+        }
+    }
+
+    /*tablet version*/
+    @media (min-width: 768px) and (max-width: 991px) {
+        .colmn-md-6 {
+            float: left;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .colmn-md-12 {
+            float: left;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    /*mobile version*/
+    @media (max-width: 767px) {
+        .colmn-sm-12 {
+            float: left;
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <h1>WEB DEVELOPMENT</h1>
+    <section class="col-lg-4 col-md-6 col-sm-12">
+        <div>
+            <p class="sub1">HTML</p>
+            <p class="content">(desktop view)Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora rem fuga repellat cum sed, recusandae temporibus aspernatur fugit molestiae. Perferendis incidunt ipsam numquam natus ea neque, dignissimos nesciunt distinctio nemo.
+            </p>
+        </div>
+    </section>
+    <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+        <div>
+            <p class="sub2">CSS</p>
+            <p class="content">(tablet view) Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, officia sit voluptatum, fugiat, nulla minus esse tempora dolorum odio labore eius dolores earum sapiente facere adipisci quis? Culpa, incidunt qui?</p>
+        </div>
+    </section>
+    <section class="column-lg-4 colmn-md-12 colmn-sm-12">
+        <div>
+            <p class="sub3">Java Script</p>
+            <p class="content">(Mobile view) Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit aspernatur, voluptatum ratione beatae veniam corrupti voluptatem vitae voluptate, at voluptatibus aut deleniti nam, minus neque consectetur hic reprehenderit id commodi vero temporibus ea sed est ipsa! Exercitationem, aut ut! Alias optio asperiores ipsum impedit sed nisi dolore hic! Quidem at odit fugiat tenetur esse debitis error dolor officiis est ex, modi consequuntur nam voluptas ab ad aliquam sunt ea totam dignissimos incidunt! Accusantium a quae modi atque! Aliquam quos molestiae repudiandae quas voluptas, aliquid nisi harum similique iure suscipit eligendi numquam dolores iste quo libero repellendus tenetur voluptates? Iste, dicta?
+            </p>
+        </div>
+</body>
+
+</html>
